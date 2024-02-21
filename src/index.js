@@ -4,7 +4,7 @@ import { app } from "./app.js";
 // import mongoose from "mongoose";
 // import { DB_NAME } from "./constants";
 dotenv.config({
-  path: "./env",
+  path: "./.env",
 });
 connectDB()
   .then(() => {
